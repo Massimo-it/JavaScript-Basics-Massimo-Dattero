@@ -1,14 +1,17 @@
 # JavaScript-Basics-Massimo-Dattero
 
 NAME OF THE PROJECT:
+--------------------
 
 Fantasmino GIGI counter.
 
 TECHNOLOGIES USED:
+------------------
 
 HTML, CSS, JavaScipt.
 
 HOW DOES IT WORKS:
+------------------
 
 "Fantasmino GIGI counter" is a simple counter:
 
@@ -20,9 +23,12 @@ When you rich the quantity of 3 or -3 at the next click the counter is stopped a
 To start again the counter click on the button.
 
 LICENCE:
+--------
 
 MIT
 
 
 LINK:
 -----
+
+https://github.com/Massimo-it/JavaScript-Basics-Massimo-Dattero
