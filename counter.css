@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial-black;
+}
+.multi {
+  display: flex;
+  width: 480px;
+  margin: auto;
+  justify-content: space-between;
+}
+.container {
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: #b3ffff;
+}
+
+/* fantasmino GIGI */
+
+.titleFantasmino {
+  background-color: #b3e0ff;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.body {
+  margin: 10px auto 50px auto;
+  top: 30%;
+  left: 30%;
+  width: 150px;
+  height: 170px;
+  border-radius: 50% 50% 0 0;
+}
+.pink {
+  background-color: pink;
+}
+.grey {
+  background-color: grey;
+}
+.eyes {
+  display: flex;
+  justify-content: center;
+}
+.eye-sn, .eye-ds { 
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 50px 10px 0 10px;
+  padding: 5px 1px 0 1px;
+  animation: animation 3s;
+}
+.mouth {
+  position: relative;
+  top: 10%;
+  left: 30%;
+  width: 60px;
+  height: 30px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 0 0 50% 50%;
+  margin-top: 10px;
+  animation: animation 3s;
+}
+.inc-dec {
+  text-align: center;
+  padding-top: 5px;
+}
+@keyframes animation {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+.bottom {
+  display: flex;
+}
+.bottom1, .bottom2, .bottom3 {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.fantasmino {
+  text-align: center;
+}
+
+/* the counter */
+
+#title {
+  text-align: center;
+  color: green;
+}
+#div-number {
+  margin: 20px auto;
+  width: 150px;
+}
+#number {
+  padding: 10px;
+  text-align: center;
+  font-size: 100px;
+  color: green;
+}
+
+/* buttons */
+
+#top {
+  display: none;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #006666;
+  color: white;
+  cursor: pointer;
+}
+#end {
+  display: none;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #006666;
+  color: white;
+  cursor: pointer;
+}
